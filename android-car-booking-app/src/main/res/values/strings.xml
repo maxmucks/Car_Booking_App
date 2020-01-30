@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">iTaxi</string>
+
+    <!--Google map-->
+    <string name="google_map_api">AIzaSyCvVdcDTIFVkvPx06HMoldmqZkZZ0XFFbE</string>
+    <string name="google_maps_key">AIzaSyBVb_96CF4Caz69KduaF9RWLqUpZyJvW0E</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dispatcher">Dispatcher</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="idont_have_an_account">Idont have an account</string>
+    <string name="get_started_now">GET STARTED NOW</string>
+    <string name="connect_with_facebook">Connect with facebook</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_payments">PaymentsActivity</string>
+
+
+    <string name="date_label">Date</string>
+    <string name="start_time_label">Start Time</string>
+    <string name="luggage_label">Luggage Size</string>
+    <string name="station_label">Pick Up Station</string>
+    <string name="drop_station_label">Drop Station</string>
+    <string name="number_of_passengers_label">No. of Passengers</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="book_cars">Book Cars</string>
+</resources>
