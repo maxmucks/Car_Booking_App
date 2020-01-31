@@ -37,6 +37,7 @@ import com.android.volley.toolbox.Volley;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.maxmux.itaxi.R;
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Button btnRequestRide = findViewById(R.id.btn_request_ride);
         setSupportActionBar(toolbar);
 
         if (googleServicesAvailable()) {
@@ -74,6 +76,13 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        btnRequestRide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,BookActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void intMap() {
